@@ -1,0 +1,63 @@
+﻿
+/*clearfix*/
+.clearfix:after {content: ".";  display: block;  clear: both;  visibility: hidden;  line-height: 0;  height: 0;}  
+.clearfix {display: inline-block;}  
+html[xmlns] .clearfix {display: block;}  
+* html .clearfix {height: 1%;}
+
+ul.stars, ul.stars li{ margin:0; padding:0; list-style-type:none;}
+ul.stars li{ float:left}
+.stars li a span{ display:block; height:16px; width:16px; background:url("star.gif") no-repeat scroll 0 0 transparent;}
+                        
+/*current stars*/
+.stars_1 li a.star_1 span
+{ background-position:0 -16px;}
+                        
+.stars_2 li a.star_1 span, 
+.stars_2 li a.star_2 span
+{ background-position:0 -16px;}
+                        
+.stars_3 li a.star_1 span, 
+.stars_3 li a.star_2 span, 
+.stars_3 li a.star_3 span
+{ background-position:0 -16px;}
+                        
+.stars_4 li a.star_1 span, 
+.stars_4 li a.star_2 span, 
+.stars_4 li a.star_3 span, 
+.stars_4 li a.star_4 span
+{ background-position:0 -16px;}
+                        
+.stars_5 li a.star_1 span, 
+.stars_5 li a.star_2 span, 
+.stars_5 li a.star_3 span, 
+.stars_5 li a.star_4 span, 
+.stars_5 li a.star_5 span
+{ background-position:0 -16px;}
+                        
+                        
+/*hover stars*/
+.hover_1 li a.star_1 span
+{ background-position:0 -32px;}
+                        
+.hover_2 li a.star_1 span, 
+.hover_2 li a.star_2 span
+{ background-position:0 -32px;}
+                        
+.hover_3 li a.star_1 span, 
+.hover_3 li a.star_2 span, 
+.hover_3 li a.star_3 span
+{ background-position:0 -32px;}
+                        
+.hover_4 li a.star_1 span, 
+.hover_4 li a.star_2 span, 
+.hover_4 li a.star_3 span, 
+.hover_4 li a.star_4 span
+{ background-position:0 -32px;}
+                        
+.hover_5 li a.star_1 span, 
+.hover_5 li a.star_2 span, 
+.hover_5 li a.star_3 span, 
+.hover_5 li a.star_4 span, 
+.hover_5 li a.star_5 span
+{ background-position:0 -32px;}

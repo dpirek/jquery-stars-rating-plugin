@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Stars Demo</title>
+
+    <link type="text/css" rel="stylesheet" href="star.styles.css" />
+
+</head>
+<body>
+
+<h1>Star Rating</h1>
+
+<p>Display Stars</p>
+
+<span class="star_rating" rating="1"></span>
+
+<span class="star_rating" rating="2"></span>
+
+<span class="star_rating" rating="3"></span>
+
+<span class="star_rating" rating="4"></span>
+
+<span class="star_rating" rating="5"></span>
+
+<p>Rate With Stars</p>
+<input name="rating" value="0" class="star_rating" />
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.stars.js"></script>
+<script type="text/javascript">
+
+    $(".star_rating").stars();
+
+</script>
+
+</body>
+</html>
